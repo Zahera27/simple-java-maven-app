@@ -27,4 +27,7 @@ pipeline {
             }
         }
     }
+     configure {
+     it / definition / lightweight(true)
+  }
 }
